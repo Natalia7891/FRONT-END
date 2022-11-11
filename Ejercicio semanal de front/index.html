@@ -1,25 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>petshop</title>
-    <link rel="stylesheet"   href="./root/CSS/StyleSheet.css">
-    
-</head>
-<body>
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css -->
+    <link rel="stylesheet" href="./root/CSS/StyleSheet.css" />
+  
+  </head>
+  <body>
     <header>
-    <img src="./logo pet.png">
-    <nav {background-color:naranjo} >
-        <ul type="none">
-            <li> <a href="./categorias.html"> Categorías</a></li>
-            <li> <a href="./pets.html">Pets</a></li>
-            <li> <a href="./nosotros.html">Nosotros</a></li>
-            <li> <a href="./contactenos.html">Contáctenos</a></li>
+      <nav class="Barra1">
+        <div>Grandes ofertas en comederos</div>
+          <div class="menuBarra1">
+            <ul type="none">
+              <li>Español</li>
+              <li>ARG$</li>
+            </ul>
+           </div>
+      </nav>
+      <nav CLASS="Barra2">
+        <img src="./ROOT/img/Logo (1).png" alt="logo" />
+        <ul class="menu" type="none">
+          <li><i class="fa-light fa-paw"></i></i><a href="#">Categorías</a></li>
+          <li><i class="fa-light fa-paw"></i></i><a href="./pets.html">Pets</a></li>
+          <li><i class="fa-light fa-paw"></i><a href="./nosotros.html">Nosotros</a></li>
+          <li><i class="fa-light fa-paw"></i><a href="./contactenos.html">Contáctenos</a></li>
         </ul>
-    </nav>
+      </nav>
     </header>
-    <section>
-        <h1>Es un placer tenerte aquí</h1>
+    <main class="contenedorPrincipal">
+      <img src="./ROOT/img/bowl-and-pet-daities-on-green-background 1.png" />
+      <h2>¡Es un placer tenerte aquí!</h2>
+      <div>comederos en descuento</div>
+      <div>COMEDEROS</div>
+    </main>
+    <section class="huella">
+      <img src="./ROOT/img/pawprint 1 (2).png" alt="huella mascota" />
+      <h2>PRODUCTOS DESTACADOS</h2>
+      <nav>
+        <img src="./ROOT/img/churrasquito.png" alt="imagen comida" />
+        <img src="./ROOT/img/comedero.png" alt="comedero" />
+        <img src="./ROOT/img/Huesito.png" alt="imagen huesos para perro" />
+        <div class="menuPrincipal"><ul type="none">
+          <li>Comederos</li>
+          <li>- Accesorios</li>
+          <li>- Comida</li>
+        </ul>
+      </div>
+      </nav>
     </section>
-</body>
+
+    <footer class="Contactanos">
+      <h2>Contáctanos</h2>
+      <nav>
+        <ul type="none">
+          <li>Nombre y apellido</li>
+          <li>Ingresa tu correo electrónico</li>
+          <li>Teléfono</li>
+        </ul>
+        <a href="#">Resetear</a>
+        <a href="#">Enviar</a>
+      </nav>
+    
+        <h2 class="suscripcion">Suscríbete para más novedades</h2>
+        <nav>
+        <a href="#">Ingresa tu correo electrónico</a>
+
+        <ul type="none">
+          <li>Localidad</li>
+          <li>Teléfono</li>
+          <li>Correo electrónico</li>
+        </ul>
+      </nav>
+      <p class="derechos">Todos los derechos reservados Front End</p>
+    </footer>
+  </body>
 </html>

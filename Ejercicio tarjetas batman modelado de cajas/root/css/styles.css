@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.descuentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1cd1b0;
+  width: 100%;
+  height: 38px;
+  padding: px;
+  border: 5px;
+  margin: 0px;
+}
+.titulo {
+  background-color: #00669f;
+  text-align: center;
+  width: 100%;
+  height: 101px;
+  padding: 5px;
+  border: 5px;
+  margin-bottom: 10px;
+}
+.container-principal {
+  position: relative;
+  width: 1240px;
+  height: 700px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.FondoCarta {
+  width: 250px;
+  height: 150px;
+}
+.picture-profile {
+  position: absolute;
+  height: 110px;
+  top: 90px;
+  
+  border-radius: 50%;
+}
+.texto_carta {
+  width: 300px;
+  height: 150px;
+  background-color: #f3f3f3;
+  justify-content: space-around;
+}
+
+.boton-principal {
+  background-color: #00669f;
+}
+
+.pie {
+  width: 100%;
+  height: 51px;
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+}

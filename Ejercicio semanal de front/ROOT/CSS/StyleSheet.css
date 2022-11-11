@@ -1,2 +1,73 @@
-nav{background-color: rgb(245, 167, 66);}
-li{text-align:right;}
+*{box-sizing: border-box;
+
+}
+
+.Barra1 {
+  background-color: #000;
+  height: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.menuBarra1 {
+  align-items: flex-end;
+  
+}
+
+.Barra2 {
+  height: 62px;
+  background-color: rgb(245, 167, 66);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fa-paw {
+        color:#fff;
+        size: 25px;
+}
+.menu li {
+  display: inline;
+  text-align: right;
+}
+.menu li a {
+  color: #fff;
+}
+.contenedorPrincipal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.huella {
+  text-align: center;
+}
+.menuPrincipal {
+  justify-content: center;
+  display: flex;
+  display: inline;
+}
+
+.Contactanos {
+  text-align: center;
+}
+
+.Contactanos nav ul li {
+  background-color: #3c2313;
+  color: white;
+}
+
+.suscripcion {
+  background-color: #f0a83e;
+}
+.suscripcion nav a {
+  background-color: white;
+}
+
+.suscripcion ul {
+  background-color: #3c2313;
+}
+.derechos {
+  background-color: #000;
+  color: #fff;
+}
