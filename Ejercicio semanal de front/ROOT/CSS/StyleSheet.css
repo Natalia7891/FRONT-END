@@ -7,10 +7,14 @@
   height: 20px;
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0px;
+  padding-top: 5px;
+
 }
 .menuBarra1 {
-  align-items: flex-end;
+  justify-content:flex-end;
   
 }
 
@@ -35,7 +39,7 @@
 }
 .contenedorPrincipal {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
