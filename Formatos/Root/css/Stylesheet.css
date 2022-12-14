@@ -1,0 +1,20 @@
+*{
+
+}
+/* selectores de ID 
+html|      <h3 id="saludo">hola<h3>
+css  |      #saludo{
+                     color:blue} */
+
+
+
+/* selectores combinados=varios al mismo tiempo
+html| <h2 class="subtitulo">un subtitulo</h2>
+css |  h2.subtitulo{
+                color:yellow
+} */
+/* selectores descendentes: agregan especificidad
+html| <ul id="lista">
+         <li>primer item</li>
+      </ul> 
+css|   ul #lista li -- el css siempre va a priorizar los selectores especificos para aplicar los estilos*/

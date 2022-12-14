@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- link Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+     <!-- link css -->
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <h3>20% de descuento en todos los productos</h3>
+        <div class="contenedorLogo">
+            <img src="./img/Logo (3).png">
+            <h2>Nombre Tienda</h2>
+        </div>
+        <nav>
+            <ul  type="none" class="menuHeader">
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>¡Anadí tu super!</h1>
+            <h3>Agregá tu personaje favorito completando las opciones.</h3>
+            <form class="containerform" action="./form/menu.php" method="post">
+                <div class="nombre">
+                    <label for="nombre" name="nombre" >Nombre*</label>
+                    <input type="text"   name="nombre" id="nombre" required>
+                    <label for="especie" name="especie" >Especie*</label>
+                    <input type="text"   name="especie" id="especie" required>
+                </div>
+                <div class="datos">
+                    <label for="fecha" name="fecha" >Fecha</label>
+                    <input type="date"   name="fecha" id="fecha">
+                    <label for="imagen de perfil" name="imagen de perfil" >Agregar foto</label>
+                    <input type="file"   name="imagen de perfil" id="imagen de perfil" multiple accept=".png, .jpg,.svg">
+                </div>
+                <div class="ContenedorDescripciones">
+                    <div>
+                        <textarea class="descripciones" name="Descripcion" id="Descripcion">Descripción</textarea>
+                    </div>
+                    <div class="alternativas" >
+                        <div class="Poderes" >
+                            <label for="Poderes">Poderes</label>
+                            <label for="Poderes"><Input type="checkbox" name="Poderes" id="Poderes" value="Volar">Volar</label>                        
+                            <label for="Poderes"><Input type="checkbox" name="Poderes" id="Poderes" value="Superinteligencia">Superinteligencia</label>
+                            <label for="Poderes"><Input type="checkbox" name="Poderes" id="Poderes" value="Vista de rayo laser">Vista de rayo laser</label>
+                            <label for="Poderes"><Input type="checkbox" name="Poderes" id="Poderes" value="Billetera Gorda">Billetera Gorda</label>
+                        </div>
+                        <div class="TipoPersonaje">
+                            <label for="Tipo de personaje">Tipo de personaje</label>                    
+                            <label for="Tipo de personaje"><input  type="radio" name="Tipo de personaje" id="Tipo de personaje" value="Heroe/heroina" >Heroe/heroina</label>                            
+                            <label for="Tipo de personaje"><input  type="radio" name="Tipo de personaje" id="Tipo de personaje" value="Villano/Villana">Villano/Villana</label>
+                        </div>
+                    </div>                            
+                </div>
+                <button type="submit" id="añadir">Añadir </button>            
+            </form>
+        </section>
+    </main>
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+header h3{
+    background-color: #1CD1B0;
+    font-family: "roboto";
+    font-size: 0.93rem;
+    font-weight: 400;
+    
+}
+.contenedorLogo{
+    display: flex;
+    background-color: #00669F;
+    align-items: center;
+    width: 100vw;
+    height: 11vh;
+
+}
+header h2{
+    color:#fff;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+header nav{
+    background-color: #001D2D;
+    color: #fff;
+    
+}
+.menuHeader{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 5vh;
+    margin: 0rem 0rem;
+
+}
+main{
+    background-color: #fff;
+    Width: 100vw;
+    Height: 80vh;
+ 
+
+}
+section{
+    background-color: #00669F;
+    color:#fff;
+    border-radius: 1rem;
+    Width: 50vw;
+    Height: 70vh;
+    margin: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+H1{
+    margin: 0.5rem ;
+    
+
+}
+.nombre{
+    margin: 1rem;
+}
+
+.datos{ margin:0.5rem;
+
+}
+.containerform{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.ContenedorDescripciones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+
+    
+}
+.descripciones{
+    Width: 16vw;
+    Height: 37vh;
+}
+.alternativas{
+    display: flex;
+    flex-direction: column;
+    }
+
+.Poderes{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.TipoPersonaje{
+    display: flex;
+    flex-direction: column;
+
+}
+   button{
+    background-color: #1CD1B0;
+    border: 0rem;
+   }
+
+footer{
+    background-color: #00669F;
+
+}

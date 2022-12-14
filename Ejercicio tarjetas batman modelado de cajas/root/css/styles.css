@@ -39,7 +39,7 @@
   position: absolute;
   height: 110px;
   top: 90px;
-  
+
   border-radius: 50%;
 }
 .texto_carta {
@@ -59,4 +59,9 @@
   background-color: #00669f;
   display: flex;
   align-items: center;
+}
+@media (max-width: 768px) {
+.container-principal {
+  flex-direction: column;
+}
 }

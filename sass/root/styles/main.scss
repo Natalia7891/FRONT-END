@@ -1,0 +1,42 @@
+/*estilos generales*/
+
+/*VARIABLES-NESTING-AMPERSON-ERRORES*/
+// /variable es un espacio en memeoria
+
+$color-primario: #f5f5f5;
+$color-secundario: #151515;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-secundario;
+}
+.container-texto{
+    height: 500px;
+    background-color: #252525;
+    border: 2px solid $color-primario;
+    .texto-titulo{
+        font-size: 3rem;
+        color: $color-primario;
+        letter-spacing: 1.5px;
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .texto-subtitulo{
+        font-size: 2rem;
+        color:$color-primario;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .texto-parrafo{
+        color: $color-primario;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+}
