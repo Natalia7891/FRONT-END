@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+/* Aquí comienza el header */
+header {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+.MenuHeader {
+  display: flex;
+}
+.MenuHeader li a {
+  font-size: 13px;
+  padding: 0px 16px;
+  font-weight: 500;
+}
+.MenuHeader li:hover {
+  color: rgba(36, 46, 82, 0.6);
+  cursor: pointer;
+}
+.boton {
+  background-color: #8b48bf;
+  color: #fff;
+  border-radius: 50px;
+  border: 0px;
+  height: 44px;
+  margin: 16px 0px;
+}
+.boton:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+button {
+  width: 134px;
+}
+.menuHamburguer {
+  display: none;
+}
+/* Aquí termina el Header y comienza el section que contiene imagen y texto */
+.container {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  margin: 160px 170px 90px;
+}
+.padel {
+  width: 540px;
+  height: 461px;
+}
+.noticias {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  align-items: flex-end;
+  width: 40vw;
+  height: 460px;
+}
+H1 {
+  color: #232c50;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 16px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+/* Aquí termina el section y comienza el article descripcion */
+.descripcion {
+  background-color: #8b48bf;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 168px;
+}
+h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+}
+.descripcion p {
+  color: #ffffff;
+  font-weight: 500;
+  width: 30vw;
+  height: 88px;
+}
+.descripcion h2{
+  width: 450px;
+}
+/* Aquí termina el article descripción y comienza el Ranking */
+.Ranking {
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0px;
+}
+.number {
+  background-color: #8b48bf;
+  color: #fff;
+  border-radius: 30px;
+  width: 69px;
+  height: 43px;
+  text-align: center;
+  padding: 10px;
+  margin: 0px 16px;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+}
+.subtitulos {
+  display: flex;
+  align-items: center;
+}
+h4 {
+  font-weight: 700;
+  color: #323851;
+}
+section p {
+  color: #b3b2b7;
+  margin-left: 100px;
+}
+section h3 {
+  color: #242e53;
+  font-size: 39px;
+  font-weight: 700;
+  text-align: center;
+  margin: 70px;
+}
+/* Aquí termina el ranking y comienza la seccion deportistas */
+.contenedorDeportistas {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.Deportistas {
+  display: flex;
+}
+.tarjetaDeportista {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  width: 403px;
+}
+.tarjetaDeportista img {
+  margin-top: -42px;
+  margin-bottom: 16px;
+}
+.tarjetaDeportista p {
+  margin: 27px;
+  text-align: center;
+  margin-top: 21px;
+}
+/* Aquí termina el section deportistas y comienza el article invitación */
+.invitacion {
+  background-color: #8b48bf;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.invitacion h2 {
+  font-size: 40px;
+  margin: 64px 165px;
+  width: 415px;
+}
+.invitacion button {
+  color: #8b48bf;
+  font-size: 13px;
+  font-weight: 500;
+  background: #ffffff;
+  border-radius: 50px;
+  border: none;
+  width: 134px;
+  height: 44px;
+  margin-right: 210px;
+}
+.invitacion button:hover{
+  cursor: pointer;
+}
+/*   Aquí termina el article y comienza el footer  */
+.footer {
+  background-color: #1e1e26;
+  padding: 0px 165px;
+}
+.lastContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.logofooter {
+  width: 108px;
+  height: 25px;
+}
+.iconos {
+  margin: 70px 5px 40px 5px;
+  cursor: pointer;
+}
+.menuFooter {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.menuFooter :hover {
+  color: rgb(220, 189, 244);
+  cursor: pointer;
+}
+.contenedorDeportistas form {
+  margin: 45px 0px 180px;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+.barraFooter {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+#email {
+  border-radius: 50px;
+  width: 201px;
+  height: 44px;
+  border: 0px;
+  margin: 0px 5px;
+}
+footer .boton {
+  width: 63px;
+  margin: 0px;
+}
+footer span {
+  color: #8c8c94;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+/* Aquí termina el footer*/
+/*media@queris mobile 480px*/
+@media screen and (max-width: 480px) {
+  .MenuHeader {
+    display: none;
+  }
+  header .boton {
+    display: none;
+  }
+  .menuHamburguer {
+    display: block;
+  }
+  /* @media section */
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    margin: 70px 40px 100px;
+  }
+  .padel {
+    width: 400px;
+    height: 341px;
+    margin: 50px 0px;
+  }
+  .noticias {
+    width: 90vw;
+  }
+  /* @media article */
+  .descripcion {
+    flex-direction: column;
+    background-color: #3cddf3;
+    height: 306px;
+  }
+  .descripcion h2 {
+    width: auto;
+    margin: 40px 20px 50px;
+  }
+  .descripcion p {
+    width: 92vw;
+  }
+  /* @media main */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+  }
+  /* @media section Ranking */
+  .Ranking {
+    padding: 65px 0px;
+  }
+  .tarjeta {
+    width: 100vw;
+    align-items: flex-end;
+  }
+  .subtitulos {
+    background-color: rgba(139, 72, 191, 0.3);
+    width: 436px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .number {
+    margin: 0px;
+  }
+  section p {
+    margin: 30px 44px;
+  }
+    /* @media deportistas */
+  .contenedorDeportistas form {
+    margin: 45px 0px 60px;
+  }
+  #Sanyo {
+    display: none;
+  }
+  #Navarro {
+    display: none;
+  }
+/* @media invitacion */
+  .invitacion {
+    flex-direction: column;
+    background-color: #3cddf3;
+  }
+  .invitacion h2 {
+    text-align: center;
+    width: 325px;
+  }
+  .invitacion button {
+    background-color: #232c50;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-right: 0px;
+  }
+  /* @media footer */
+  .footer {
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .lastContainer form {
+    margin-bottom: 50px;
+  }
+  .lastContainer {
+    flex-direction: column-reverse;
+  }
+  .barraFooter {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .iconsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+    gap: 50px;
+  }
+  .iconsContainer img {
+    order: 2;
+  }
+  .iconsContainer div {
+    display: flex;
+    gap: 70px;
+  }
+  .iconos {
+    margin: 0px;
+  }
+  #email {
+    width: 310px;
+  }
+}
